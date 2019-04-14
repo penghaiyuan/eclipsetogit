@@ -33,7 +33,7 @@ public class ForeLoginController extends BaseController {
     @ResponseBody
     @RequestMapping(value = "login/doLogin", method = RequestMethod.POST, produces = "application/json;charset=utf-8")
     public String checkLogin() {
-    	
+        System.out.println("gksjgkasjgakganfgng");
         return "登录你得自己写";
     }
 
